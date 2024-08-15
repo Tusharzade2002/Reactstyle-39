@@ -1,7 +1,9 @@
 import ReactDOM from 'react-dom/client';
-
+import HelloUser  from './HelloUser';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render( <h1>React</h1>);
+root.render( 
+  <HelloUser />
+);
 
 
